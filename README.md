@@ -1,11 +1,11 @@
 # SensorDataProcessor
 Software Construction - Assignment 2 
 
-Manar Majeed - 2114050
-Maha
-Rafal
+## team members 
+- Manar Majeed  2114050
+- Maha
+- Rafal
 
-
-Issues:
+## Issues:
 1- The constructor name different from the class name
 2-
