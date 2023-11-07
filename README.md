@@ -1,7 +1,7 @@
 # SensorDataProcessor
 Software Construction - Assignment 2 
 
-## team members 
+## Team members 
 - Manar Majeed  2114050
 - Maha
 - Rafal
