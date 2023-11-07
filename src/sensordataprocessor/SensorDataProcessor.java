@@ -1,5 +1,8 @@
 package sensordataprocessor;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+
 public class SensorDataProcessor {
     // Senson data and limits. 
     public double[][][] data;
