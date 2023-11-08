@@ -9,4 +9,4 @@ Software Construction - Assignment 2
 ## Issues:
 1- The constructor name different from the class name
 2-The code is missing the import statements for BufferedWriter, FileWriter, and Math classes. These classes should be imported at the beginning of the file to resolve the compilation errors
-3- jdjekpkp
+3- The catch block now includes a specific catch for the IOException type. This allows for specific handling of IO-related exceptions and a generic catch block is included to catch any other unexpected exceptions. It will print the error message along with the exception's message
