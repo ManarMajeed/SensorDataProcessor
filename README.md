@@ -5,6 +5,7 @@ Software Construction - Assignment 2
 - Manar Majeed  2114050
 - Maha Shehab 2110911
 - Rafal Amir 2113845
+- khamsa saleh 2115044
 
 ## Issues:
 1- The constructor name different from the class name
