@@ -8,9 +8,9 @@ import java.util.Arrays;
 
 public class SensorDataProcessor {
     // Sensor data and limits
-    public double[][][] data;
-    public double[][] limit;
-
+    private double[][][] data;
+    private double[][] limit;
+      
     // Constructor
     public SensorDataProcessor(double[][][] data, double[][] limit) {
         this.data = data;
@@ -45,10 +45,9 @@ public class SensorDataProcessor {
                         else if (Math.pow(Math.abs(data[i][j][k]), 3) < Math.pow(Math.abs(data2[i][j][k]), 3)
                                 && average(data[i][j]) < data2[i][j][k] && (i + 1) * (j + 1) > 0)
                             data2[i][j][k] *= 2;
-                        else
-                            continue;
+                        
                     }
-                }
+            }
             }
 
             for (i = 0; i < data2.length; i++) {
